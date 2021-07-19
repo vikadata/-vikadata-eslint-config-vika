@@ -1,0 +1,11 @@
+{
+  "name": "@vikadata/eslint-config-vika",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@git.zhlh6.cn:vikadata/eslint-config-vika.git",
+  "author": "JaneSu <sujian@vikadata.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
