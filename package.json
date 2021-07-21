@@ -1,11 +1,20 @@
 {
-  "name": "@vikadata/eslint-config-vika",
+  "name": "eslint-config-vika",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@git.zhlh6.cn:vikadata/eslint-config-vika.git",
   "author": "JaneSu <sujian@vikadata.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": ">= 3"
+  "scripts": {
+    "test": "eslint -c index.js ."
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "typescript": "^4.3.5",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
