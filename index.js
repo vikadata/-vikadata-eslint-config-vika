@@ -26,7 +26,6 @@ module.exports = {
     "@typescript-eslint/semi": 1,
     "comma-dangle": [
       "warn",
-      "only-multiline",
       {
         "functions": "never"
       }
